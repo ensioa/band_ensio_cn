@@ -1,0 +1,34 @@
+/* .zhifubao_photo{
+	position: absolute;
+    height: 210px;.
+    width:180px;
+    display: none;
+    z-index: 1;
+    left:20px;
+    top:-210px;
+    cursor:pointer;
+}
+.qq_photo,.weixin_photo{
+    position: absolute;
+    height: 210px;
+     display: none; 
+    left:20px;
+    top:-210px;
+    cursor:pointer;
+} */
+.juankuan_photo{
+     /* height: 210px;  */
+     overflow:auto; 
+}
+.zhifubao_photo,.qq_photo,.weixin_photo{
+    height: 210px;
+    /* width:inherit; */
+    /* position:absolute ;
+
+    left: 30%;   居中50，就需要减去元素的一般。纯css，没有加减法的用法。所以估计随便写一个 */
+    left:300px;
+}
+.zhifubao_photo,.qq_photo,.weixin_photo{
+    display: none;
+}
+
